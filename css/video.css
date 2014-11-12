@@ -1,0 +1,50 @@
+/***********************Html5 Video样式*************************/
+/*播放器区域样式*/
+.videoPanel {	
+	width:100%;
+	min-width: 660px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	-moz-border-radius:15px;/*FireFox*/
+	-moz-box-shadow:5px 5px 50px #000;
+	-webkit-border-radius:15px;/*Safari、Chrome*/
+	-webkit-box-shadow:5px 5px 50px #000;
+	border-radius: 15px;/* Opera 10.5+, IE6+ 使用 IE-CSS3*/
+	box-shadow: 5px 5px 50px #000;
+	behavior:url(IE-CSS3);
+}
+
+/*播放器控制区域样式*/
+.videoControl {
+   background: url(../images/bg.jpg); 
+   margin-bottom: 0px;
+   width:100%;
+   min-width: :660px;
+   height: 30px;
+   text-align: left;
+   -moz-border-radius:5px 5px 0px 0px;/*FireFox*/
+   -moz-box-shadow:5px 5px 50px #000;
+   -webkit-border-radius:5px 5px 0px 0px;/*Safari、Chrome*/
+   -webkit-box-shadow:5px 5px 50px #000;
+   border-radius: 5px 5px 0px 0px;/* Opera 10.5+, IE6+ 使用 IE-CSS3*/
+   box-shadow: 5px 5px 50px #000;
+   behavior:url(IE-CSS3);
+}
+
+/*视频控件样式*/
+.video {
+	width:100%;
+	min-width: 660px;
+	margin-top: 0px;
+}
+
+/*播放信息显示*/
+.message {
+	float:right;
+	color: red;
+	width:200px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+}

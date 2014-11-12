@@ -1,0 +1,9 @@
+/************SeaJs配置***************/
+seajs.config({
+	base:'E://MySeaJs//html5//js',
+	alias:{
+		'jquery':'jquery/jquery.js',
+		'nav':'nav.js',
+		'video':'library/video.js'
+	}
+});
